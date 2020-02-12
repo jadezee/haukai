@@ -1,0 +1,189 @@
+h1 {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid rgb(216, 220, 228);
+    outline: 1px solid white;
+    outline-offset: 15px;;
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+font-size: 9vw;
+color: white;
+}
+h1:hover {
+    background-color:rgb(163, 6, 6);
+    color:black;
+    padding: 20px;
+    margin: 30px;
+  }
+h2 {
+  letter-spacing: 0.3em;
+}
+
+p1 {
+      font-size: 1.5vw;
+  }
+nav {
+    background-color: slategray;
+    text-align: right;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.5vw;
+    margin: 30px;
+    border: 1px solid rgb(216, 220, 228);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:slategray;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+body {
+    background-color: black;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+}
+footer{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vw;
+}
+#imgfaded {
+    opacity: 0.3;
+    position: -webkit-sticky;
+}
+  .container {
+    position: relative;
+  }
+
+  .menu-block {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+    top: 20%;
+    left: 50%}
+
+  .text-block {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+    top: 70%;
+    left: 50%}
+
+    .reservationform {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+        color: white;
+        text-align: center;
+        font-size: 3vw;
+        font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+         padding-top: 2%;
+        left: 50%}
+
+    .locationform {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+      color: white;
+      text-align: center;
+      font-size: 3vw;
+      font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+      top: 60%;
+      bottom: 40%;
+      left: 50%}
+
+    .contactform {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+      color: white;
+      text-align: center;
+      font-size: 3vw;
+      font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+      top: 10%;
+      bottom: 60%;
+      left: 50%}
+    iframe{
+        position: relative;
+    }
+    p{
+        color:white;
+        font-size: 3vw;
+    }      
+      
+      .btn {
+        position: relative;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #f1f1f1;
+        color: black;
+        font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+        font-size: 3vw;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+      
+      .btn:hover {
+        background-color: black;
+        color: white;
+      }
+
+.menuimages{
+  margin-left: 8%;
+  margin-top:8%;
+  margin-bottom:10%;
+  
+}
+.menurounded{
+  border-radius: 20%;
+}
+       table, th, td {
+        border: 1px solid white;
+      
+      }
+      table.center {
+        margin-left:auto; 
+        margin-right:auto;
+      }
