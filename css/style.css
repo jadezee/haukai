@@ -141,6 +141,7 @@ footer{
       top: 10%;
       bottom: 60%;
       left: 50%}
+
     iframe{
         position: relative;
     }
@@ -186,4 +187,20 @@ footer{
       table.center {
         margin-left:auto; 
         margin-right:auto;
+      }
+
+      .staff-login-button {
+        float: right; height: 30px; width: 120px; text-align: center;
+        line-height: 30px; margin-right: 15px; margin-top: 5px; 
+        border-radius: 5px; border-bottom: 2px dashed #006666;  border-top: 2px dashed #006666; 
+        border-left: 2px dashed #006666;  border-right: 2px dashed #006666;
+      }
+      .staff-login-button a {
+        text-decoration: none; text-transform: uppercase; color: #292929;
+      }
+      .staff-login-button:hover {
+        background-color: #006666; transition: ease-out .8s;
+      }
+      .staff-login-button:hover a {
+        color: #fff;
       }
